@@ -7,9 +7,9 @@ import PropTypes from 'prop-types';
 
 const AppState = (props) => {
   // const url = "http://localhost:1000/api";
-     const url = "http://localhost:3000/api"
+    //  const url = "http://localhost:3000/api"
   // const url = "https://mern-e-commerce-api-youtube.onrender.com/api";
-
+  const url = "https://ecommerce-api-qn50.onrender.com/api";
 
   const [products, setProducts] = useState([]);
   const [token, setToken] = useState([]);
